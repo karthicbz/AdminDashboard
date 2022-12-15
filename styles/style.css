@@ -1,0 +1,11 @@
+.options>div>img{
+    width: 24px;
+}
+
+.header img{
+    width: 24px;
+}
+
+.sidebar>div>img{
+    width: 3rem;
+}
