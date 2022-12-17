@@ -17,14 +17,6 @@ html, body{
     height: 100%;
 }
 
-.sidebar{
-    grid-column: 1/2;
-    grid-row: 1/4;
-    background-color: #14b8a6;
-    /* font-family: 'Roboto', sans-serif; */
-
-}
-
 .header{
     grid-column: 2/3;
     grid-row: 1/2;
@@ -80,14 +72,46 @@ html, body{
     justify-self: center;
 } */
 
+.sidebar{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background-color: #14b8a6;
+    /* font-family: 'Roboto', sans-serif; */;
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+    gap: 50px;
+    font-size: 1.2rem;
+}
+
 .sidebar>.title{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 30% 1fr;
+    align-items: center;
+    gap: 10px;
+    padding-top: 1rem;
+}
+
+.sidebar>div:hover{
+    cursor: pointer;
+}
+
+.sidebar>div>img{
+    justify-self: end;
 }
 
 .options>div{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 30% 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+
+    /* justify-items: center; */
+}
+
+.options>div>img{
+    justify-self: end;
 }
 
 .options>div>img{
