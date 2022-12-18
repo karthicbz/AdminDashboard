@@ -81,6 +81,7 @@ html, body{
     grid-template-rows: repeat(3, max-content);
     gap: 50px;
     font-size: 1.2rem;
+    color: white;
 }
 
 .sidebar>.title{
@@ -97,6 +98,8 @@ html, body{
 
 .sidebar>div>img{
     justify-self: end;
+    width: 3rem;
+    filter: invert(1);
 }
 
 .options>div{
@@ -112,19 +115,21 @@ html, body{
 
 .options>div>img{
     justify-self: end;
+    width: 24px;
+    filter: invert(1);
 }
 
-.options>div>img{
+/* .options>div>img{
     width: 24px;
-}
+} */
 
 .header img{
     width: 24px;
 }
 
-.sidebar>div>img{
+/* .sidebar>div>img{
     width: 3rem;
-}
+} */
 
 .icons>img{
     width: 24px;
@@ -171,4 +176,5 @@ html, body{
     align-self: center;
     padding: 10px 25px;
     border-radius: 50px;
+    color: white;
 }
