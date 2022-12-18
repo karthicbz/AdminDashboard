@@ -129,3 +129,46 @@ html, body{
 .icons>img{
     width: 24px;
 }
+
+.nav{
+    display: grid;
+    grid-template-columns: max-content 1fr 30%;
+    align-content: center;
+    gap: 20px;
+}
+
+.nav>img{
+    width: 48px;
+    background-color: yellow;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.nav>.profile{
+    align-self: center;
+}
+
+.nav>.profile>p:nth-child(1){
+    font-size: 15px;
+}
+
+.nav>.profile>p:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.nav>.nav-buttons{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 20px;
+    justify-content: center;
+}
+
+.nav>.nav-buttons>li{
+    list-style: none;
+    background-color: #14b8a6;
+    text-align: center;
+    align-self: center;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
