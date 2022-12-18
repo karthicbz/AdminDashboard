@@ -80,7 +80,8 @@ html, body{
     display: grid;
     grid-template-rows: repeat(3, max-content);
     gap: 50px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
     color: white;
     justify-content: start;
 }
@@ -91,7 +92,12 @@ html, body{
     align-items: center;
     gap: 10px;
     padding-top: 1rem;
-    margin-left: 20px;
+    margin-left: 10px;
+}
+
+.sidebar>.title>p{
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .sidebar>div:hover{
