@@ -196,9 +196,9 @@ html, body{
     grid-column: 1/2;
     grid-row: 1/3;
 
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-auto-rows: minmax(250px, min-content);
+    grid-auto-rows: minmax(250px, min-content); */
 }
 
 .main>.announcement{
@@ -214,7 +214,13 @@ html, body{
     margin: 30px 20px;
 }
 
-.projects>.card{
+.projects>.projects-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-rows: minmax(250px, min-content);
+}
+
+.projects>.projects-cards>.card{
     padding: 20px;
     border-left: 8px solid rgb(246, 210, 6);
     margin: 15px;
@@ -224,7 +230,7 @@ html, body{
     position: relative;
 }
 
-.projects>.card>.icons{
+.projects>.projects-cards>.card>.icons{
     display: flex;
     justify-content: end;
     gap: 20px;
