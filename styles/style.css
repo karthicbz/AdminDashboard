@@ -50,8 +50,9 @@ html, body{
 
 .header>div>img:nth-child(2){
     background-color: yellow;
-    width: 35px;
+    width: 40px;
     border-radius: 50px;
+    padding: 5px;
 }
 
 .nav{
@@ -150,6 +151,7 @@ html, body{
     background-color: yellow;
     border-radius: 50px;
     margin-left: 30px;
+    padding: 5px;
 }
 
 .nav>.profile{
@@ -210,6 +212,7 @@ html, body{
 
 .main>.trending{
     grid-column: 2/3;
+    margin-top: 20px;
 }
 
 .projects{
@@ -268,4 +271,25 @@ html, body{
 
 .announcement-container>.notes:nth-child(3)>p:nth-child(2){
     margin-bottom: 0;
+}
+
+.trending-container{
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.trending-container>.profile>img{
+    width: 35px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.trending-container>.profile{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 15px;
+    padding: 20px;
 }
