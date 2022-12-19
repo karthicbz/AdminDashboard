@@ -144,6 +144,8 @@ html, body{
     grid-template-columns: max-content 1fr 30%;
     align-content: center;
     gap: 20px;
+
+    box-shadow: 0 8px 15px -15px black;;
 }
 
 .nav>img{
@@ -223,6 +225,16 @@ html, body{
     font-size: 1.3rem;
 }
 
+.projects>.projects-cards>.card>p:nth-child(1){
+    font-size: 1.15rem;
+    padding-top: 15px;
+}
+
+.projects>.projects-cards>.card>p:nth-child(2){
+    font-size: 0.98rem;
+    color: #8c8b8b;
+}
+
 .projects>.projects-cards{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -239,6 +251,7 @@ html, body{
 
     position: relative;
     box-shadow: 3px 2px 15px 1px #b8b7b7;
+    line-height: 1.4rem;
 }
 
 .projects>.projects-cards>.card>.icons{
