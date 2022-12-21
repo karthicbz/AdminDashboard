@@ -145,7 +145,7 @@ html, body{
     align-content: center;
     gap: 20px;
 
-    box-shadow: 0 10px 10px -15px black;;
+    border-bottom: 3px solid #ded9d9;
 }
 
 .nav>img{
